@@ -1,0 +1,918 @@
+[
+    {
+	"region": "FRCC",
+	"begin_profit_per_mw": 130,
+	"begin_base_load": 3900.0,
+	"begin_peak_load": 1200.0,
+	"states": {
+	    "Florida": {
+		"generators": [
+
+		    {
+			"name": "Jim Woodruff Dam",
+			"asset": "jim_woodruff_dam.png",
+			"description": "Jim Woodruff Dam is a hydroelectric dam on the Apalachicola River, about 1,000 feet (300 m) south of that river's origin at the confluence of the Flint and Chattahoochee Rivers. The dam impounds Lake Seminole on the common border of Florida and Georgia. The dam is named in honor of James W. Woodruff, Sr., a Georgia businessman who spearheaded the development of the Apalachicola-Chattahoochee-Flint Project.",
+			"cost": 300.0,
+			"type": "hydro",
+			"rating": [
+			    330.0,
+			    110.0
+			],
+			"upkeep": 0.9,
+			"latitude": 30.708611,
+			"longitude": -84.864167,
+			"date1": 1947,
+			"date2": 1957
+		    },
+
+		    {
+			"name": "C.H. Corn Hydroelectric Facility",
+			"asset": "ch_corn_hydroelectric_facility.png",
+			"description": "Once owned and operated by Florida Power & Light, the City of Tallahassee took ownership in 1985. It utilizes the slow moving water of the Ochlockonee River  to create up to 12 megawatts of electricity an hour. This has been the case for 33 years. Today it accounts for one percent of the city’s power.",
+			"cost": 100.0,
+			"type": "hydro",
+			"rating": [
+			    90.0,
+			    30.0
+			],
+			"upkeep": 0.9,
+			"latitude": 30.4635,
+			"longitude": -84.2785,
+			"date1": 1917,
+			"date2": 1927
+		    },
+
+		    {
+			"name": "Crist Generating Station",
+			"asset": "crist.png",
+			"description": "The James F. Crist Generating Plant' (commonly Plant Crist) is one of three plants wholly-owned by the Gulf Power Company. It is in northwest Pensacola on Governor's Bayou, where Escambia River feeds into Escambia Bay. It is named for James F. Crist, president of Gulf Power from 1948 to 1955. The plant is coal-operated and has four active generating units with a total generating capacity of 930,000 kilowatts. A $650 million state of the art scrubber system was installed in December of 2009, removing more than 95 percent of regulated emissions. The plant was first brought on-line on January 1, 1945. In the preceding years during World War II, limited construction supplies had precluded the construction of the much-needed plant, forcing Gulf Power to barge in a surplus floating Navy generating unit, which operated on pilings for one year and helped meet the rapidly increasing demand.",
+			"cost": 900.0,
+			"type": "coal",
+			"rating": [
+			    283.75,
+			    851.25
+			],
+			"upkeep": 0.9,
+			"latitude": 30.565167,
+			"longitude": -87.225944,
+			"date1": 1943,
+			"date2": 1945
+		    },
+
+		    {
+			"name": "Northside Generating Station",
+			"asset": "northside_generating_station.png",
+			"description": "JEA Northside Generating Station in Jacksonville, Florida is a major power plant, one of the three power plants owned and operated by JEA, Jacksonville's municipal utilities service. It produces electricity by burning coal and petroleum coke at Units 1 and 2, formerly the largest circulating fluidized-bed combustors, (CFBs), in the world. These combustors, are rated at 297.5 megawatts each, produce enough electricity to light more than 250,000 households.  In addition, Unit ST3 produces 505 megawatts of electricity by burning residual fuel oil and/or natural gas.",
+			"cost": 825.0,
+			"type": "coal",
+			"rating": [
+			    351.75,
+			    1055.25
+			],
+			"upkeep": 0.9,
+			"latitude": 30.428611,
+			"longitude": -81.552778,
+			"date1": 1963,
+			"date2": 1966
+		    },
+
+		    {
+			"name": "Deerhaven Generating Station ",
+			"asset": "deerhaven_generating_station.png",
+			"description": "Deerhaven is one of Florida's most efficient and economical power generating stations, partially due to the use of coal. The state designated the site as a 'Stewardship Forest ' for good stewardship of the land and demonstrating multiple use practices in natural resource management. The site at Deerhaven is 1,146 acres and is home to a large variety of plants and animals. To protect the natural habitat and our native groundwater, Deerhaven is a 'zero discharge' plant. Process waste is reclaimed on site, and natural and artificial materials line all plant areas to protect groundwater. Groundwater monitoring wells are regularly sampled to ensure the safety of the aquifer. GRU also monitors and controls air emissions.",
+			"cost": 500.0,
+			"type": "coal",
+			"rating": [
+			    104.25,
+			    312.75
+			],
+			"upkeep": 0.9,
+			"latitude": 29.76182,
+			"longitude": -82.389197,
+			"date1": 1970,
+			"date2": 1972
+		    },
+
+		    {
+			"name": "Seminole",
+			"asset": "seminole.png",
+			"description": "A key Florida landmark. Seminole Generating Station consists of two 650-MW steam units that together burn about 11,000 tons of coal daily. Emissions from each unit have been reduced by incrementally upgrading the scrubber, adding low-NOx burners and other combustion system upgrades, and, most recently, adding a selective catalytic reduction system. Synthetic gypsum from the SO2 scrubber is sold to an adjacent wallboard manufacturer. The common stack in the foreground is 695 feet tall.",
+			"cost": 900.0,
+			"type": "coal",
+			"rating": [
+			    367.75,
+			    1103.25
+			],
+			"upkeep": 0.9,
+			"latitude": 29.73775,
+			"longitude": -81.634722,
+			"date1": 1980,
+			"date2": 1984
+		    },
+
+		    {
+			"name": "Crystal River",
+			"asset": "crystal_river.png",
+			"description": "The Crystal River Energy Complex consists of five power-generating plants on a 4,700 acre (1,900 hectare) site near the mouth of the Crystal River in Citrus County, Florida. Crystal River 1, 2, 4, and 5 are fossil fuel power plants, while Crystal River 3 is the sole nuclear power plant on the site. The complex was developed in the early 1960s by the Florida Power Corporation and sold to Progress Energy Inc in 2000.  Following Progress Energy's merger with Duke Energy in 2012,  the facility is owned and operated by Duke Energy. In February 2013, Duke Energy announced that Crystal River 3 would be permanently shut down  due to the containment shell of the unit being damaged upon planned plant repairs. The plant was then retrofitted into a coal plant.",
+			"cost": 2400.0,
+			"type": "coal",
+			"rating": [
+			    793.25,
+			    2379.0
+			],
+			"upkeep": 0.9,
+			"latitude": 28.958111,
+			"longitude": -82.699722,
+			"date1": 1968,
+			"date2": 1977
+		    },
+
+		    {
+			"name": "Stanton Energy Center",
+			"asset": "stanton_energy_center.png",
+			"description": "Nicknamed the reliable one, The Curtis H. Stanton Energy Center is a strategically phased powerhouse comprising a portfolio of clean, modern, fuel-diverse, environmentally sound power-generation equipment. Newsweek magazine has described it as non-polluting. Others just call it a good neighbor. With good reason: When it comes to protecting the environment, OUC goes above and beyond — always using the best technology available at the time of construction.",
+			"cost": 1200.0,
+			"type": "coal",
+			"rating": [
+			    464.75,
+			    1394.25
+			],
+			"upkeep": 0.9,
+			"latitude": 28.488541,
+			"longitude": -81.165161,
+			"date1": 1987,
+			"date2": 1989
+		    },
+
+		    {
+			"name": "Big Bend",
+			"asset": "big_bend.png",
+			"description": "Big Bend Power Station is a major coal-fired power plant, located across Tampa Bay from Tampa, Florida on nearly 1,500 acres (6 km2) in southeastern Hillsborough County, close to Apollo Beach. It is owned and operated by TECO Energy. Three similar units (each 445.5 MWe nameplate capacity) were launched in the early 1970s, followed by a newer 486-MWe unit 4 in 1985.",
+			"cost": 1000.0,
+			"type": "coal",
+			"rating": [
+			    455.5,
+			    1366.5
+			],
+			"upkeep": 0.9,
+			"latitude": 27.795833,
+			"longitude": -82.403611,
+			"date1": 1969,
+			"date2": 1985
+		    },
+
+		    {
+			"name": "Indiantown",
+			"asset": "indiantown.png",
+			"description": "The Indiantown Generating Plant, located in Martin County, Florida, is a 395-megawatt (net) co-generation facility fueled by pulverized coal. Its electricity output — enough for approximately 330,000 homes — is sold under contract to Florida Power and Light Company. The plant also supplies up to 745 million pounds of steam per year to a citrus processing plant owned by Caulkins Indiantown Citrus Company. It entered commercial service in December 1995.",
+			"cost": 415.0,
+			"type": "coal",
+			"rating": [
+			    98.75,
+			    296.25
+			],
+			"upkeep": 0.9,
+			"latitude": 27.0392611,
+			"longitude": -80.5147444,
+			"date1": 1990,
+			"date2": 1995
+		    },
+
+		    {
+			"name": "Hammock Solar",
+			"asset": "hammock_solar.png",
+			"description": "The Hammock Solar Energy Center is one of eight new 75 megawatt solar plants that began construction in 2010 and started serving customers from 2016 - 2020. These news solar energy centers are built cost-effectively, which means that over their operational lifetime, they will save FPL customers $39 million dollars in fuel and other savings, above and beyond what it cost to build the solar plant. Each plant will generate enough electricity using only the sun for fuel to power approximately 15,000 homes. The solar center will prevent an estimated 118,000 metric tons of carbon emissions every year – the equivalent of removing approximately 12,000 passenger vehicles from the road.",
+			"cost": 200.0,
+			"type": "solar",
+			"rating": [
+			    75.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 26.75535,
+			"longitude": -81.39631,
+			"date1": 2016,
+			"date2": 2019
+		    },
+
+		    {
+			"name": "Babcock Solar Energy Center",
+			"asset": "babcock_solar_energy_center.png",
+			"description": "The Babcock Ranch FPL Solar Energy Center is located slightly north on the Babcock Ranch property. It provides 75 megawatts of solar capacity and is located on a total of 440 acres. With 343,000 solar panels, the FPL Babcock Ranch Solar Energy Center provides power to the entire town of Babcock and surrounding areas.  Any energy generated by the solar plant that is not meeting demand at Babcock Ranch, continues to flow to the grid to serve other FPL customers. When the sun goes down and the solar plant is not generating, the battery storage kicks in to supply uninterrupted power.",
+			"cost": 250.0,
+			"type": "solar",
+			"rating": [
+			    85.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 26.783346,
+			"longitude": -81.753007,
+			"date1": 2012,
+			"date2": 2015
+		    },
+
+		    {
+			"name": "Barefoot Bay Solar Energy Center",
+			"asset": "barefoot_bay_solar_energy_center.png",
+			"description": "The Barefoot Solar Energy Center is one of eight new 75 megawatt solar plants that began construction in 2010 and started serving customers from 2016 - 2020. These news solar energy centers are built cost-effectively, which means that over their operational lifetime, they will save FPL customers $39 million dollars in fuel and other savings, above and beyond what it cost to build the solar plant. Each plant will generate enough electricity using only the sun for fuel to power approximately 15,000 homes. The solar center will prevent an estimated 118,000 metric tons of carbon emissions every year – the equivalent of removing approximately 12,000 passenger vehicles from the road.",
+			"cost": 200.0,
+			"type": "solar",
+			"rating": [
+			    75.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 27.879891,
+			"longitude": -80.529276,
+			"date1": 2016,
+			"date2": 2019
+		    },
+
+		    {
+			"name": "Manatee Solar Energy Center",
+			"asset": "manatee_solar_energy_center.png",
+			"description": "The Manatee Solar Energy Center is one of eight new 75 megawatt solar plants that began construction in 2010 and started serving customers from 2016 - 2020. These news solar energy centers are built cost-effectively, which means that over their operational lifetime, they will save FPL customers $39 million dollars in fuel and other savings, above and beyond what it cost to build the solar plant. Each plant will generate enough electricity using only the sun for fuel to power approximately 15,000 homes. The solar center will prevent an estimated 118,000 metric tons of carbon emissions every year – the equivalent of removing approximately 12,000 passenger vehicles from the road.",
+			"cost": 200.0,
+			"type": "solar",
+			"rating": [
+			    75.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 27.5875,
+			"longitude": -82.4251,
+			"date1": 2016,
+			"date2": 2018
+		    },
+
+		    {
+			"name": "Coral Farms Solar",
+			"asset": "coral_farms_solar.png",
+			"description": "The Coral Farms Solar Energy Center is one of eight new 75 megawatt solar plants that began construction in 2010 and started serving customers from 2016 - 2020. These news solar energy centers are built cost-effectively, which means that over their operational lifetime, they will save FPL customers $39 million dollars in fuel and other savings, above and beyond what it cost to build the solar plant. Each plant will generate enough electricity using only the sun for fuel to power approximately 15,000 homes. The solar center will prevent an estimated 118,000 metric tons of carbon emissions every year – the equivalent of removing approximately 12,000 passenger vehicles from the road.",
+			"cost": 200.0,
+			"type": "solar",
+			"rating": [
+			    75.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 29.755924,
+			"longitude": -81.888206,
+			"date1": 2016,
+			"date2": 2018
+		    },
+
+		    {
+			"name": "Gulf Coast Solar Center I",
+			"asset": "golf_coast_solar_center_1.png",
+			"description": "The 120-MW Gulf Coast Solar Center includes three sites in Northwest Florida: a 30-MW project at Eglin AFB Reservation, a 40-MW project at NAS Whiting Field’s NOLF Holley, and a 50-MW project at NAS Pensacola’s NOLF Saufley. Spanning more than 900 acres and comprising more than 1.5 million solar panels, the Gulf Coast Solar Center portfolio generates enough electricity annually to power roughly 18,000 homes and reduce CO2 emissions by 3.5 million tons over the 25-year life of the project. Construction of the portfolio created nearly 450 jobs, with 98% of that workforce hired locally.",
+			"cost": 50.0,
+			"type": "solar",
+			"rating": [
+			    30.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 30.51545,
+			"longitude": -86.51841,
+			"date1": 2015,
+			"date2": 2016
+		    },
+
+		    {
+			"name": "Gulf Coast Solar Center II",
+			"asset": "golf_coast_solar_center_2.png",
+			"description": "The 120-MW Gulf Coast Solar Center includes three sites in Northwest Florida: a 30-MW project at Eglin AFB Reservation, a 40-MW project at NAS Whiting Field’s NOLF Holley, and a 50-MW project at NAS Pensacola’s NOLF Saufley. Spanning more than 900 acres and comprising more than 1.5 million solar panels, the Gulf Coast Solar Center portfolio generates enough electricity annually to power roughly 18,000 homes and reduce CO2 emissions by 3.5 million tons over the 25-year life of the project. Construction of the portfolio created nearly 450 jobs, with 98% of that workforce hired locally.",
+			"cost": 100.0,
+			"type": "solar",
+			"rating": [
+			    40.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 30.43077,
+			"longitude": -86.8952,
+			"date1": 2015,
+			"date2": 2017
+		    },
+
+		    {
+			"name": "Gulf Coast Solar Center III",
+			"asset": "golf_coast_solar_center_3.png",
+			"description": "The 120-MW Gulf Coast Solar Center includes three sites in Northwest Florida: a 30-MW project at Eglin AFB Reservation, a 40-MW project at NAS Whiting Field’s NOLF Holley, and a 50-MW project at NAS Pensacola’s NOLF Saufley. Spanning more than 900 acres and comprising more than 1.5 million solar panels, the Gulf Coast Solar Center portfolio generates enough electricity annually to power roughly 18,000 homes and reduce CO2 emissions by 3.5 million tons over the 25-year life of the project. Construction of the portfolio created nearly 450 jobs, with 98% of that workforce hired locally.",
+			"cost": 150.0,
+			"type": "solar",
+			"rating": [
+			    50.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 30.47035,
+			"longitude": -87.33519,
+			"date1": 2015,
+			"date2": 2018
+		    },
+
+		    {
+			"name": "Horizon Solar Energy Center",
+			"asset": "horizon_solar_energy_center.png",
+			"description": "The Horizon Solar Energy Center is one of eight new 75 megawatt solar plants that began construction in 2010 and started serving customers from 2016 - 2020. These news solar energy centers are built cost-effectively, which means that over their operational lifetime, they will save FPL customers $39 million dollars in fuel and other savings, above and beyond what it cost to build the solar plant. Each plant will generate enough electricity using only the sun for fuel to power approximately 15,000 homes. The solar center will prevent an estimated 118,000 metric tons of carbon emissions every year – the equivalent of removing approximately 12,000 passenger vehicles from the road.",
+			"cost": 200.0,
+			"type": "solar",
+			"rating": [
+			    75.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 29.5919,
+			"longitude": -82.0873,
+			"date1": 2016,
+			"date2": 2018
+		    },
+
+		    {
+			"name": "Walt Disney World Solar Facility",
+			"asset": "walt_disney_world_solar_facility.png",
+			"description": "Disney continues to find ways to provide clean energy to its parks and resorts and now it unveils its largest solar farm, built by Duke Energy. The 48,000 solar panels near Epcot Center will produce roughly 5 megawatts of electricity – the equivalent of 1,000 residential solar rooftop systems. Duke Energy, which plans to add up to 500 megawatts of solar energy to Florida by 2024, will sell the energy to Reedy Creek Improvement District to help meet the power needs of Walt Disney World Resort and its other customers, such as Four Seasons Resort and the hoteliers along Hotel Plaza Boulevard.",
+			"cost": 8.0,
+			"type": "solar",
+			"rating": [
+			    5.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 28.3852,
+			"longitude": -81.5639,
+			"date1": 2010,
+			"date2": 2015
+		    },
+
+		    {
+			"name": "Payne Creek Solar",
+			"asset": "payne_creek_solar.png",
+			"description": "Payne Creek is part of a plan to build 10 solar facilities in West Central Florida by Jan. 1, 2021. The 10 plants would use 6 million solar panels generating 600 megawatts, which would power more than 100,000 homes, according to TECO.",
+			"cost": 190.0,
+			"type": "solar",
+			"rating": [
+			    70.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 27.626259,
+			"longitude": -81.808653,
+			"date1": 2018,
+			"date2": 2020
+		    },
+
+		    {
+			"name": "Blue Cypress Solar",
+			"asset": "blue_cypress_solar.png",
+			"description": "The Blue Cypress Solar Energy Center is one of eight new 75 megawatt solar plants that began construction in 2010 and started serving customers from 2016 - 2020. These news solar energy centers are built cost-effectively, which means that over their operational lifetime, they will save FPL customers $39 million dollars in fuel and other savings, above and beyond what it cost to build the solar plant. Each plant will generate enough electricity using only the sun for fuel to power approximately 15,000 homes. The solar center will prevent an estimated 118,000 metric tons of carbon emissions every year – the equivalent of removing approximately 12,000 passenger vehicles from the road.",
+			"cost": 200.0,
+			"type": "solar",
+			"rating": [
+			    75.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 27.638643,
+			"longitude": -80.397270,
+			"date1": 2016,
+			"date2": 2019
+		    },
+
+		    {
+			"name": "Loggerhead Solar",
+			"asset": "loggerhead_solar.png",
+			"description": "The Loggerhead Solar Energy Center is one of eight new 75 megawatt solar plants that began construction in 2010 and started serving customers from 2016 - 2020. These news solar energy centers are built cost-effectively, which means that over their operational lifetime, they will save FPL customers $39 million dollars in fuel and other savings, above and beyond what it cost to build the solar plant. Each plant will generate enough electricity using only the sun for fuel to power approximately 15,000 homes. The solar center will prevent an estimated 118,000 metric tons of carbon emissions every year – the equivalent of removing approximately 12,000 passenger vehicles from the road.",
+			"cost": 200.0,
+			"type": "solar",
+			"rating": [
+			    75.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 27.293690,
+			"longitude": -80.353317,
+			"date1": 2016,
+			"date2": 2020
+		    },
+
+		    {
+			"name": "Desoto Next Generation Solar Energy",
+			"asset": "desoto_next_generation_solar_energy.png",
+			"description": " The DeSoto Next Generation Solar Energy Center is a photo-voltaic power station in Arcadia, DeSoto County, in the U.S. state of Florida, owned by Florida Power & Light (FPL). President Barack Obama attended the plant's commissioning on October 27, 2009. It has a nameplate capacity of 50 megawatts (MW), and produces an estimated 42,000 megawatt hours (MW·h) of electricity per year (an average output of about 4.8 MW).",
+			"cost": 150.0,
+			"type": "solar",
+			"rating": [
+			    50.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 27.316667,
+			"longitude": -81.8,
+			"date1": 2005,
+			"date2": 2009
+		    },
+
+		    {
+			"name": "Bartow Solar Energy",
+			"asset": "bartow_solar_energy.png",
+			"description": "NovaSol Energy announced the unveiling of a new solar farm in the city of Bartow. Utilizing over 28,000 high efficiency 72 cell solar panels and string inverters, the solar farm is expected to generate approximately 5 to 6% of the city’s annual energy requirements, ranking the city in the top ten largest municipal solar facilities in the state of Florida (at the time of installation) and number one in terms of solar watts installed per utility customer.",
+			"cost": 10.0,
+			"type": "solar",
+			"rating": [
+			    7.0,
+			    0.0 
+			],
+			"upkeep": 0.9,
+			"latitude": 28.05808,
+			"longitude": -81.24168,
+			"date1": 2016,
+			"date2": 2018
+		    },
+
+		    {
+			"name": "Osceola Solar Facility ",
+			"asset": "osceola_solar_facility.png",
+			"description": "The Osceola County solar facility utilizes more than 14,000 monocrystalline solar panels to cover 17 acres of land. The array can produce up to 6,781,000 kWh annually; which is equivalent to powering 760 homes in Central Florida.",
+			"cost": 7.0,
+			"type": "solar",
+			"rating": [
+			    4.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 27.989536,
+			"longitude": 81.690988,
+			"date1": 2015,
+			"date2": 2016
+		    },
+
+		    {
+			"name": "Legoland Solar",
+			"asset": "legoland_solar.png",
+			"description": "Legoland Florida Resort had added a canopy of solar panels over its preferred parking area, providing shade for up to 600 cars of visitors and enough electricity to power 250 homes for a year. Became operational in 2016Tampa Electric installed, owns and maintains the 2-megawatt solar array. The power will goes to  725,000 customers, including the Winter Haven theme park.",
+			"cost": 5.0,
+			"type": "solar",
+			"rating": [
+			    2.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 29.218103,
+			"longitude": -81.031723,
+			"date1": 2013,
+			"date2": 2016
+		    },
+
+		    {
+			"name": "Space Coast Next Gen Solar Energy",
+			"asset": "space_coast_next_gen_solar_energy.png",
+			"description": "The Space Coast Next Generation Solar Energy Center is a 10 megawatt (MW) solar photo-voltaic (PV) facility at the Kennedy Space Center, Florida.[1] Commissioned in April 2010, the center is the result of a partnership between NASA and Florida Power & Light. The facility has approximately 35,000 solar photovoltaic panels from SunPower covering an area of 60 acres. The facility provides slightly less than one percent of the power needed to keep Kennedy Space Center up and running.",
+			"cost": 20.0,
+			"type": "solar",
+			"rating": [
+			    10.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 28.485278,
+			"longitude": -80.681389,
+			"date1": 2005,
+			"date2": 2010
+		    },
+
+		    {
+			"name": "Daytona International Speedway Solar",
+			"asset": "daytona_international_speedway_solar.png",
+			"description": " Florida Power and Light Co. (FPL) and Daytona International Speedway (DIS) completed one of American professional sports’ largest solar-power installations. The FPL Solar Circuit includes more than 7,000 solar panels that generate electricity for DIS’s operations and FPL’s 4.8 million customers. The system will prevent the emission of approximately 2,200 metric tons of carbon dioxide each year, equivalent to an average-sized vehicle driving some 2 million laps in the Daytona Speedway, which is home to “The Great American Race,” the Daytona 500 ",
+			"cost": 5.0,
+			"type": "solar",
+			"rating": [
+			    2.0,
+			    0.0
+			],
+			"upkeep": 0.9,
+			"latitude": 29.188477,
+			"longitude": -81.07218,
+			"date1": 2005,
+			"date2": 2016
+		    },
+
+		    {
+			"name": "St Lucie Nuclear",
+			"asset": "st_lucie.png",
+			"description": " St. Lucie Nuclear Power Plant is a twin nuclear power station located on South Hutchinson Island, near Port St. Lucie in St. Lucie County, Florida. Both units are Combustion Engineering pressurized water reactors. Florida Power & Light commissioned the station in 1976 and continues to operate the station. Minor shares of Unit 2 are owned by the Florida Municipal Power Agency (8.81%) and the Orlando Utilities Commission (6.08%). The plant contains two nuclear reactors in separate containment buildings. However, the plant does not have the classic hyperboloid cooling towers found at many inland reactor sites; instead, it uses nearby ocean water for coolant of the secondary system.",
+			"cost": 1500.0,
+			"type": "nuclear",
+			"rating": [
+			    0.0,
+			    2160.0
+			],
+			"upkeep": 0.9,
+			"latitude": 27.348611,
+			"longitude": -80.246389,
+			"date1": 1970,
+			"date2": 1983
+		    },
+
+		    {
+			"name": "Turkey Point Nuclear",
+			"asset": "turkey_point.png",
+			"description": "Turkey Point Nuclear Generating Station is a twin reactor nuclear power station located on a 3,300-acre (1,300 ha) site two miles east of Homestead, Florida, United States, next to Biscayne National Park located about 25 miles (40 km) south of Miami, Florida near the southernmost edge of Miami-Dade County. The facility is owned by Florida Power & Light. Including the two nuclear plants, Turkey Point operates three power-generating units. It comprises two retired 404 megawatt fuel oil/natural gas/used oil/propane-fired generation units (Units 1 and 2), two 802 MWe Westinghouse pressurized water reactors (Units 3 and 4), and a 1,150 MW combined-cycle gas-fired Unit 5.[3] It serves the entire southern portion of Florida. With a combined operational capacity of 2754 MW, the site is the third largest generating station in Florida and the sixth largest power plant in the United States",
+			"cost": 2000.0,
+			"type": "nuclear",
+			"rating": [
+			    0.0,
+			    2861.0
+			],
+			"upkeep": 0.9,
+			"latitude": 25.434167,
+			"longitude": -80.330556,
+			"date1": 1967,
+			"date2": 1973
+		    },
+
+		    {
+			"name": "Santa Rosa Energy",
+			"asset": "santa_rosa_energy.png",
+			"description": "Santa Rosa Energy Center, LLC owns and operates a natural gas-fired and combined-cycle power generation facility in Florida. The company was founded in 2003 and is headquartered in Pace, Florida.",
+			"cost": 300.0,
+			"type": "gas",
+			"rating": [
+			    137.5,
+			    137.5 
+			],
+			"upkeep": 0.9,
+			"latitude": 30.5664,
+			"longitude": -87.115,
+			"date1": 2000,
+			"date2": 2003
+		    },
+
+		    {
+			"name": "Lansing Smith",
+			"asset": "lansing_smith.png",
+			"description": "Gulf Power's Lansing Smith Generating Plant is located near Southport, Florida, along the North Bay. The plant once operated two coal-fired units (375 MW total) since the mid-1960s, but added two natural gas units of the same rating in favor of natural gas. This thus lead to the decommissioning of the two coal units.",
+			"cost": 528.0,
+			"type": "gas",
+			"rating": [
+			    331.0,
+			    331.0
+			],
+			"upkeep": 0.9,
+			"latitude": 30.268722,
+			"longitude": -85.700861,
+			"date1": 1965,
+			"date2": 1967
+		    },
+
+		    {
+			"name": "Arvah B Hopkins",
+			"asset": "arvah_b_hopkins.png",
+			"description": "The plant is located on 230 acres of land 7 miles west of Tallahassee, Florida on Geddie Road. As fossil-fueled power plants go, the Hopkins power plant is a medium sized facility, capable of generating up to 654 megawatts of power when local electricity demand requires it. The plant operates 24 hours a day 365 days a year under constant supervision of an expert team of engineers and operators who monitor the plant’s efficiency and cleanliness.",
+			"cost": 520.0,
+			"type": "gas",
+			"rating": [
+			    327.0,
+			    327.0
+			],
+			"upkeep": 0.9,
+			"latitude": 30.452483,
+			"longitude": -84.403687,
+			"date1": 1971,
+			"date2": 1975
+		    },
+
+		    {
+			"name": "Suwannee River",
+			"asset": "suwannee_river.png",
+			"description": "Serving as peaking reserves Suwannee power plant has, three peaking combustion turbine units built in 1980 to help keep the AC on during Florida’s sweltering summers when load is at its highest demand.",
+			"cost": 200.0,
+			"type": "gas",
+			"rating": [
+			    92.0,
+			    92.0
+			],
+			"upkeep": 0.9,
+			"latitude": 30.299265,
+			"longitude": -82.986458,
+			"date1": 1978,
+			"date2": 1980
+		    },
+
+		    {
+			"name": "Brandy Branch",
+			"asset": "brandy_branch.png",
+			"description": "Located on the far Westside of Jacksonville near Baldwin, Brandy Branch is known for its clean environmental performance and its huge General Electric combustion turbines, which are the size of jet engines. Brandy Branch was commissioned in 2001 with three 170 MW simple cycle combustion turbines. It’s primary fuel is natural gas and its secondary fuel is ultra-low sulfur diesel, although this is hardly ever used. JEA further enhanced the efficiency and performance of this plant in 2005 by converting two of the three simple cycle combustion turbines to a 2x1 Combined Cycle configuration.",
+			"cost": 680.0,
+			"type": "gas",
+			"rating": [
+			    391.5,
+			    391.5
+			],
+			"upkeep": 0.9,
+			"latitude": 30.304381,
+			"longitude": -81.940272,
+			"date1": 1999,
+			"date2": 2001
+		    },
+
+		    {
+			"name": "Intercession City",
+			"asset": "intercession_city.png",
+			"description": "One of Duke Energy's acquired plants from Progress Energy that was built during the energy boom of the 1970s. This plant features two units with twin combustion turbine capability reaching 1000 MW in Summer during high energy demand for the region.",
+			"cost": 920.0,
+			"type": "gas",
+			"rating": [
+			    598.5,
+			    598.5
+			],
+			"upkeep": 0.9,
+			"latitude": 28.264162,
+			"longitude": -81.548337,
+			"date1": 1970,
+			"date2": 1974
+		    },
+
+		    {
+			"name": "Martin Gas & Solar Energy Center",
+			"asset": "martin_gas_and_solar_energy_center.png",
+			"description": "Florida Power & Light Company’s Martin Next Generation Solar Energy Center covers 500 acres in western Martin County, Florida. The facility combines the energy producing capabilities of an already existing combined-cycle natural gas power plant with 190,000 solar thermal mirrors that track the sun throughout the course of the day to harness heat energy that is converted to electrical energy. The hybrid natural gas solar power plant has created more than 1,000 jobs to boost the Florida economy since the project’s inception just two years ago. Over 150 Florida-based businesses have been involved in the hybrid power plant’s construction, lending to even more employment opportunities having been created and maintained indirectly.",
+			"cost": 3000.0,
+			"type": "gas",
+			"rating": [
+			    2159.0,
+			    2159.0
+			],
+			"upkeep": 0.9,
+			"latitude": 27.053,
+			"longitude": -80.55,
+			"date1": 1985,
+			"date2": 1991
+		    },
+
+		    {
+			"name": "Fort Myers",
+			"asset": "fort_myers.png",
+			"description": "Fort Myers’ unique integration of two steam turbines, block dispatching of the integrated unit of 1,500 MW, and a manatee protection plan are unique in the industry of power product. On a good day visitors can see manatee nearby.",
+			"cost": 2200.0,
+			"type": "gas",
+			"rating": [
+			    1340.5,
+			    1340.5
+			],
+			"upkeep": 0.9,
+			"latitude": 26.697128,
+			"longitude": -81.782778,
+			"date1": 1955,
+			"date2": 1958
+		    },
+
+		    {
+			"name": "Hines Energy Complex",
+			"asset": "hines_energy_complex.png",
+			"description": "Located approximately an hour outside Orlando, in Polk County, Florida, the 2263-MW complex is home to four natural gas-fired, combined-cycle units. The site includes more than 8,000 acres. However, the complex itself takes up about 200 acres, while a cooling pond in the back of the facility covers approximately 2,000 acres and uses 15 million gallons of water per day. The Hines Energy Complex provides about 30 percent of Duke Energy’s overall energy needs in Florida.",
+			"cost": 1900.0,
+			"type": "gas",
+			"rating": [
+			    1331.5,
+			    1331.5
+			],
+			"upkeep": 0.9,
+			"latitude": 27.817218,
+			"longitude": -81.887584,
+			"date1": 1992,
+			"date2": 2007
+		    },
+
+		    {
+			"name": "P.L. Bartow",
+			"asset": "pl_bartow.png",
+			"description": "Bartow serves as one of Duke Energy's oldest yet highest rated gas turbine plants in the country. Several upgrades throughout the years has kept this sight relevant with a 1000 MW+ capacity for a high demanding  energy area in the summers in St. Petersburg.",
+			"cost": 1000.0,
+			"type": "gas",
+			"rating": [
+			    738.0,
+			    738.0
+			],
+			"upkeep": 0.9,
+			"latitude": 27.85954,
+			"longitude": -82.60176,
+			"date1": 1953,
+			"date2": 1958
+		    },
+
+		    {
+			"name": "Polk",
+			"asset": "polk.png",
+			"description": "Tampa Electric Co. (TECO) owns and operates Polk Power Station as part of its regulated generation fleet in Central Florida. The plant  occupies 4,300 acres in Polk County, about 40 miles southeast of Tampa. One-fifth of the integrated gasification combined-cycle (IGCC) project’s $600 million capital cost was paid for by the U.S. Department of Energy as part of its Clean Coal Technology Program. ",
+			"cost": 1000.0,
+			"type": "gas",
+			"rating": [
+			    746.5,
+			    746.5
+			],
+			"upkeep": 0.9,
+			"latitude": 27.725130,
+			"longitude": -81.992516,
+			"date1": 1990,
+			"date2": 1996
+		    },
+
+		    {
+			"name": "Cape Canaveral I",
+			"asset": "cape_canaveral_1.png",
+			"description": "A 800MW dual fuel facility built near Cape Canaveral in 1965 to supply power to the new Kennedy Space Center.",
+			"cost": 750.0,
+			"type": "gas",
+			"rating": [
+			    400.0,
+			    400.0
+			],
+			"upkeep": 0.9,
+			"latitude": 28.400976,
+			"longitude": -80.603847,
+			"date1": 1963,
+			"date2": 1965
+		    },
+
+		    {
+			"name": "Cape Canaveral II",
+			"asset": "cape_canaveral_2.png",
+			"description": "The original FPL Cape Canaveral power plant was demolished in August 22, 2010 to make way for the FPL Cape Canaveral Next Generation Energy Center. The FPL Cape Canaveral Next Generation Energy Center in Sharpes, Florida was completed and opened in April 2013. The 1,200MW combined-cycle natural gas-fired facility was 33 percent more efficient than the plant it replaced and produced half the carbon dioxide emissions, 90 percent less pollutants, and had a 50 percent greater capacity.",
+			"cost": 990.0,
+			"type": "gas",
+			"rating": [
+			    647.5,
+			    647.5
+			],
+			"upkeep": 0.9,
+			"latitude": 28.400976,
+			"longitude": -80.603847,
+			"date1": 2010,
+			"date2": 2012
+		    },
+
+		    {
+			"name": "Treasure Coast Energy",
+			"asset": "treasure_coast_energy.png",
+			"description": "Treasure Coast Energy Center, a 411 megawatt natural gas-fired power plant, generates enough electricity to serve approximately 60,000 homes in 15 cities served by Florida Municipal Power Association’s (FMPA’s) All-Requirements Project. The 69-acre Treasure Coast Energy Center site is located in the Midway Industrial Park, southwest of Fort Pierce, along Glades Cut-Off Road.",
+			"cost": 320.0,
+			"type": "gas",
+			"rating": [
+			    205.5,
+			    205.5
+			],
+			"upkeep": 0.9,
+			"latitude": 27.447119,
+			"longitude": -80.337237,
+			"date1": 2005,
+			"date2": 2010
+		    },
+
+		    {
+			"name": "Vandolah Power Station",
+			"asset": "vandolah_power_station.png",
+			"description": "This 728 MW, dual fuel, peaking plant is an Electric Wholesale Generator that began commercial operations in June 2002. Through June 2027 the plant is fully contracted under a tolling agreement with Duke Energy Florida. Waste water from the plant is discharged into an on-site evaporation-percolation pond",
+			"cost": 618.0,
+			"type": "gas",
+			"rating": [
+			    364.0,
+			    364.0
+			],
+			"upkeep": 0.9,
+			"latitude": 27.554298,
+			"longitude": -81.807344,
+			"date1": 2000,
+			"date2": 2002
+		    }
+		]
+	    }
+	}
+    },
+    {
+	"region":"MRO",
+	"begin_profit_per_mw": 130,
+	"begin_base_load": 320000.0,
+	"begin_peak_load": 100000.0,
+	"states":
+	{
+	    "Nebraska":
+	    {
+		"generators": 
+		[
+		    {
+			"name": "Gerald Gentleman Station",
+			"asset":  "ggs_highres.jpg", 
+			"description":  "Gerald Gentleman Station is Nebraska’s largest electric generating facility, supplying enough electricity to serve 600,000 Nebraskans. It is consistently ranked as one of the lowest production-cost electric generation plants in the nation. ",
+			"cost": 1050.0,
+			"type": "coal",
+			"rating":
+			[
+			    665.0,
+			    1365.0
+			],
+			"upkeep": 0.9,
+			"latitude": -0.5,
+			"longitude": -0.08
+		    },
+		    {
+			"name":  "Cooper Nuclear Station",
+			"asset":  "cooper.jpg", 
+			"description": "Cooper Nuclear Station (CNS) operates as the largest, single-unit electrical generator in the state, generating 820 megawatts of electricity. This would be enough power to supply more than 310,000 residential customers during the hottest summer.",
+			"cost": 5000.0,
+			"type": "nuclear",
+			"rating":
+			[
+			    2000.0,
+			    3750.0
+			],
+			"upkeep": 0.1,
+			"latitude": -0.98,
+			"longitude": -0.06
+		    },
+		    {
+			"name":  "Sheldon Station",
+			"asset":  "sheldon.jpg", 
+			"description": "Sheldon Station generates 225 megawatts of electricity. Power generated here is distributed to Nebraska’s residents through transmission lines leading to Lincoln, Hastings and Beatrice. \\n\\n Bazinga.",
+			"cost": 1250.0,
+			"type": "coal",
+			"rating":
+			[
+			    695.0,
+			    1165.0
+			],
+			"upkeep": 0.9,
+			"latitude": 0.5,
+			"longitude": -0.5
+		    },
+		    {
+			"name":  "Springview II",
+			"asset":  "ainsworth.jpg", 
+			"description": "Nebraska Public Power District constructed Nebraska’s first wind-energy generation facility in 1998 west of Springview. Wind energy supplements baseload generation and is an important part of Nebraska's diverse generation mix.",
+			"cost": 750.0,
+			"type": "wind",
+			"rating":
+			[
+			    305.0,
+			    686.0
+			],
+			"upkeep": 0.9,
+			"latitude": -0.25,
+			"longitude": -0.435
+		    },
+		    {
+			"name":  "Beatrice Power Station",
+			"asset":  "beatrice.jpg", 
+			"description": "NPPD’s gas and oil generation facilities add fuel diversity to our generation resource mix. While not utilized every day, the availability of these facilities protects our Nebraska customers from the expense associated with costly replacement power during times of high energy use or in the event one of our other baseload plants is offline.",
+			"cost": 1550.0,
+			"type": "gas",
+			"rating":
+			[
+			    850.0,
+			    1465.0
+			],
+			"upkeep": 0.3,
+			"latitude": 0.5,
+			"longitude": 0.1
+		    },
+		    {
+			"name": "Elkhorn Ridge",
+			"asset":  "ainsworth.jpg", 
+			"description":"Nebraska Public Power District constructed Nebraska’s first wind-energy generation facility in 1998 west of Springview. Wind energy supplements baseload generation and is an important part of Nebraska's diverse generation mix.",
+			"cost": 820.0,
+			"type": "wind",
+			"rating":
+			[
+			    375.0,
+			    626.0
+			],
+			"upkeep": 0.9,
+			"latitude": 30.5664,
+			"longitude": -87.115,
+			"date1": 1930,
+			"date2": 1932
+		    },
+		    {
+			"name": "Kingsley Hydro",
+			"asset":  "platte.jpg", 
+			"description":"NPPD own and operates two hydroelectric generating facilities — at North Platte and Kearney on the Platte River and purchase 100 percent of the energy output from facilities owned by Central Nebraska Public Power and Irrigation District and Loup Public Power District. At each plant, water passes through turbines, generates electricity and continues on unchanged. The generators, totaling 28 megawatts, can serve 9,500 homes.",
+			"cost": 950.0,
+			"type": "hydro",
+			"rating":
+			[
+			    430.0,
+			    1070.0
+			],
+			"upkeep": 0.9,
+			"latitude": -0.88,
+			"longitude": -0.26
+		    }
+		]
+	    }
+	}
+    }
+]

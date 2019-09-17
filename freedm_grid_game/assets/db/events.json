@@ -1,0 +1,321 @@
+[       {
+		"year": "1936-2020",
+		"desc": "Hoover Dam available to purchase",
+		"type": "generator",
+		"long description": "capacity of hydro plants has increased. Hoover Dam was constructed between 1931 and 1936, during the great depression. The annual capacity of this hydroelectric plant is 4.2 TWh ",
+		"affected areas": [
+			"Nevada"
+		]
+	},
+	{
+		"year": "2004-2020",
+		"desc": "Solar",
+		"type": "generator",
+		"long description": "Player can purchase a solar plant",
+		"affected areas": [
+
+		]
+	},
+	{
+		"year": "1996",
+		"desc": "WECC Blackout 2",
+		"type": "disaster",
+		"long description": "A week has passed since WECC #1. There is another heat wave. Load increased has caused another blackout in the western area of the country",
+		"affected areas": [
+			"New Mexico",
+			"Colorado",
+			"Wyoming",
+			"Montana",
+			"Idaho",
+			"Utah",
+			"Washington",
+			"Oregon",
+			"Nevada",
+			"California",
+			"Arizona"
+		]
+	},
+	{
+		"year": "2001",
+		"desc": "California Summer Crisis",
+		"type": "disaster",
+		"long_description": "Energy prices skyrocketed in California. The crisis lasted about three weeks, and it is believed that this was due to market manipulation",
+		"affected areas": [
+			"California"
+		]
+	},
+	{
+		"year": "1982",
+		"desc": "West coast blackout",
+		"type": "disaster",
+		"long_description": "High wind caused transmission lines to fall down, causing a blackout",
+		"affected areas": [
+			"Washington",
+			"Oregon",
+			"Nevada"
+		]
+	},
+	{
+		"year": "1988",
+		"desc": "Severe Cold Wave",
+		"type": "event",
+		"long_description": "Severe cold caused a sudden load increase in the northern states",
+		"affected areas": [
+			"Wyoming",
+			"Montana",
+			"Idaho",
+			"Utah",
+			"Washington",
+			"Oregon",
+			"Nevada",
+			"Indiana",
+			"New York ",
+			"New Jersey",
+			"Ohio",
+			"West virginia",
+			"Rhode Island",
+			"Connecticut",
+			"Massachussets",
+			"Pennsylvania",
+			"Illinois",
+			"Iowa",
+			"Michigan",
+			"Maryland",
+			"New Hampshire",
+			"Vermont"
+
+		]
+	},
+	{
+		"year": "1965",
+		"desc": "Northeast Blackout of 1965",
+		"type": "disaster",
+		"long_description": "30 million people were left without power for 13 hours. On a very cold winter day transmission lines were heavily loaded. This caused a relay to trip, disabling a main power line and overloading the other line. Their relay tripped, isolating Beck Station",
+		"affected areas": [
+			"Connecticut",
+			"Massachussets",
+			"New Hampshire",
+			"New York ",
+			"New Jersey",
+			"Rhode Island",
+			"Pennsylvania",
+			"Vermont"
+		]
+	},
+	{
+		"year": "2003",
+		"desc": "Northeast Blackout of 2003",
+		"type": "disaster",
+		"long_description": "The primary cause of this blackout was a software bug in the alarm system at a control room. Operator were unaware that the load needed to be distributed. This caused some lines to be overloaded, which resulted in a power outage ",
+		"affected areas": [
+			"Connecticut",
+			"Massachussets",
+			"New Hampshire",
+			"New York ",
+			"New Jersey",
+			"Rhode Island",
+			"Pennsylvania",
+			"Vermont"
+		]
+	},
+	{
+		"year": "2012",
+		"desc": "Hurricane Sandy",
+		"type": "disaster",
+		"long_description": "Downed trees caused the power interruption of more than 8.2 people in multiple states. Many areas did not have power for 2 weeks",
+		"affected areas": [
+			"Florida",
+			"North Carolina",
+			"South Carolina",
+			"Virginia",
+			"Washington DC",
+			"Maryland",
+			"Delaware",
+			"New Jersey",
+			"Pennsylvania",
+			"New York",
+			"New England",
+			"Connecticut",
+			"Maine",
+			"Massachussets",
+			"New Hampshire",
+			"Rhode Island"
+		]
+	},
+	{
+		"year": "1998",
+		"desc": "North Central Blackout",
+		"type": "disaster",
+		"long_description": "During a thunder storm in Minnesota a lightning stroke a line a second strike caused cascading transmission line disconnection, which caused the northern midwest to separate from eastern grid. (19 hours)",
+		"affected_areas": [
+			"Kansas",
+			"Minnesota",
+			"Missouri",
+			"Nebraska",
+			"North Dakota",
+			"South Dakota",
+			"Iowa"
+
+		]
+	},
+	{
+		"year": "2011",
+		"desc": "Southwest Blackout",
+		"type": "disaster",
+		"long_description": "Increased load during a hot summer day conflicted with engineer schedule, causing a blackout for 12 hours",
+		"affected_areas": [
+			"California"
+
+		]
+	},
+	{
+		"year": "2012",
+		"desc": "Derecho Blackout",
+		"type": "disaster",
+		"long_description": "Derecho is a type of storm that widespread and long lasting. Thunders, high winds, and flash floods. 4.2 million people were left without power for up to 10 days ",
+		"affected_areas": [
+			"Ohio",
+			"West Virginia",
+			"Pennsylvania",
+			"Washington DC",
+			"Maryland",
+			"New Jersey",
+			"Virginia"
+
+		]
+	},
+	{
+		"year": "2005",
+		"desc": "Hurricane Katrina",
+		"type": "disaster",
+		"long_description": "Hurricane Katrina hits the southeastern and mid-southern states",
+		"affected_areas": [
+			"Florida",
+			"New Orleans",
+			"Louisiana",
+			"Missisipi",
+			"Alabama",
+			"Georgia",
+			"Arkansas",
+			"Tennessee",
+			"Pennsylvania",
+			"New York",
+			"New England",
+			"Connecticut",
+			"kentucky",
+			"Texas"
+		]
+	},
+	{
+		"year": "2017",
+		"desc": "Hurricane Harvey",
+		"type": "disaster",
+		"long_description": "Hurricane Harvey severely affect Texas and Louisiana ",
+		"affected_areas": [
+
+			"Louisiana",
+			"Texas"
+		]
+	},
+	{
+		"year": "2017",
+		"desc": "Hurricane Irma",
+		"type": "disaster",
+		"long_description": "Hurricane Irma hits",
+		"affected_areas": [
+
+			"Florida",
+			"Georgia"
+		]
+	},
+	{
+		"year": "1920",
+		"desc": "Water Power Act",
+		"type": "regulation",
+		"long_description": "37.5% of income from lease hydro plants goes to the government FPC was established and provides licensing over hydro plants. Licences are valid for 30-50 years",
+		"affected_areas": [
+
+		]
+	},
+	{
+		"year": "1954",
+		"desc": "Atomic Energy Act",
+		"type": "regulation",
+		"long_description": "Allows private ownership of nuclear reactors. Soon the player will be able to purchase a nuclear plant",
+		"affected_areas": [
+
+
+		]
+	},
+	{
+		"year": "1935",
+		"desc": "PUHCA",
+		"type": "regulation",
+		"long_description": "Gives federal  power commission jurisdiction over transmission lines ",
+		"affected_areas": [
+
+
+		]
+	},
+	{
+		"year": "1960 - 1969",
+		"desc": "Transmission lines tripled",
+		"type": "generation",
+		"long_description": "the power grid has expanded to a vast area. More areas are unlocked",
+		"affected_areas": [
+
+		]
+	},
+	{
+		"year": "1978",
+		"desc": "PURPA",
+		"type": "regulation",
+		"long_description": "Mandates utilities to buy power from companies that are non-utility",
+		"affected_areas": [
+
+		]
+	},
+	{
+		"year": "1992",
+		"desc": "EPACT",
+		"type": "regulation",
+		"long_description": "Mandates that all generators get access to the transmission lines for the esame price the utility would pay",
+		"affected_areas": []
+	},
+	{
+		"year": "1996",
+		"desc": "Order 888",
+		"type": "regulation",
+	        "long_description": "Mandates utilities to separate their generation and transmission business",
+		"affected_areas": []
+	},
+	{
+		"year": "1997",
+		"desc": "Order 889",
+		"type": "regulation",
+	    "long_description":"creates an online system on which TLs owners can post available capacity on their lines",
+	    "affected_areas": []
+	},
+	{
+		"year": "1999",
+		"desc": "Order 2000",
+		"type": "regulation",
+	    "long_description":"encourages transmission owning utilities to form RTOs. RTO is given the task of regional planning, pricing, and creating market for whole sale ",
+	    "affected_areas": []
+	},
+	{
+		"year": "2000",
+		"desc": "Order 2000-3",
+		"type": "regulation",
+	    "long_description":"helps define which entity pays for necessary transmission upgrades to connect new power generation sources.",
+	    "affected_areas": []
+	},
+	{
+		"year": "2018",
+		"desc": "Items E-1, E-4, and E6",
+		"type": "regulation",
+	    "long_description":"Tax cut on natural gas. Reduces federal tax rate from 35 to 21 percent",
+	    "affected_areas": []
+	}
+
+]
